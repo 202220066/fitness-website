@@ -1,0 +1,36 @@
+{
+  "programs": [
+    {
+      "name": "Weight Loss Program",
+      "duration": "3 Months",
+      "level": "Beginner"
+    },
+    {
+      "name": "Muscle Gain Program",
+      "duration": "6 Months",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Cardio Fitness Program",
+      "duration": "2 Months",
+      "level": "Beginner"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ahmed Ali",
+      "specialty": "Weight Loss Trainer",
+      "experience": "5 Years"
+    },
+    {
+      "name": "Sara Mohammed",
+      "specialty": "Cardio Trainer",
+      "experience": "4 Years"
+    },
+    {
+      "name": "Omar Khalid",
+      "specialty": "Muscle Building Trainer",
+      "experience": "6 Years"
+    }
+  ]
+}

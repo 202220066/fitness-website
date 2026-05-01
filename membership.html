@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membership - Fitness & Wellness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Fitness & Wellness</h1>
+    <p>Join our gym today</p>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="programs.html">Programs</a>
+    <a href="trainers.html">Trainers</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="admin.html">Admin</a>
+</nav>
+<div class="container">
+    <h2>Membership Registration</h2>
+    <img src="images/gym.jpg" alt="Gym Membership"
+         style="width:100%; height:250px; object-fit:cover; border-radius:15px; margin:15px 0;">
+    <form onsubmit="return validateMembershipForm()">
+        <label>Full Name:</label>
+        <input type="text" id="fullName" placeholder="Enter your full name">
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <label>Phone Number:</label>
+        <input type="text" id="phone" placeholder="Enter your phone number">
+        <label>Create Username:</label>
+        <input type="text" id="username" placeholder="Create username">
+        <label>Create Password:</label>
+        <input type="password" id="password" placeholder="Create password">
+        <label>Choose Program:</label>
+        <select id="program">
+            <option value="">Select Program</option>
+            <option>Weight Loss Program</option>
+            <option>Muscle Gain Program</option>
+            <option>Cardio Fitness Program</option>
+        </select>
+        <label>Payment Method:</label>
+        <select id="payment">
+            <option value="">Select Payment Method</option>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+            <option>Cash at Gym</option>
+        </select>
+        <button type="submit">Register & Pay</button>
+    </form>
+</div>
+<footer>
+    <p>© 2026 Fitness & Wellness</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
